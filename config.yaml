@@ -1,0 +1,11 @@
+
+
+APP_ENV: "local"
+APP_SECRET: "hello-world"
+API_KEY: "607ebfc2-450a-44d9-aa27-f65e7ec621e7"
+
+ISV_BASE_URL: "https://samshikshapreprod.verify.ibm.com"
+ISV_INTROSPECT_URL: "/v1.0/endpoint/default/introspect"
+
+ISV_CLIENT_ID: "8e1ddd41-e505-4203-9bd5-64b46e8bf774"
+ISV_CLIENT_SECRET: "hNTek7bk0k"
