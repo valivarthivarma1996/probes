@@ -4,7 +4,7 @@ import requests
 import logging
 import traceback
 import socket
-host=socket.gethostnam()
+host=socket.gethostname()
 app = Flask(__name__)
 
 
