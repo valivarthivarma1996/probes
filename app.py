@@ -9,17 +9,17 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def inhello():
-    return "Hi Srikar -----!", 200
+    return "Hi Srikar Version2!", 200
 
 
 @app.route('/healthz', methods=['GET'])
 def index():
-    return "Healthy Probe ---------------------!", 200
+    return "Healthy Probe Version2---------------------!", 200
 
 
 @app.route('/ready', methods=['GET'])
 def indexi():
-    return "Ready Probe --------------------!", 200
+    return "Ready Probe Version2--------------------!", 200
 
 
 if __name__ == "__main__":
