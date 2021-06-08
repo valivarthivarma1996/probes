@@ -3,18 +3,20 @@ import yaml
 import requests
 import logging
 import traceback
-
+import socket
+host=socket.gethostnam()
 app = Flask(__name__)
 
 
 @app.route('/', methods=['GET'])
 def inhello():
-    return "Hi Srikar Version2!", 200
+    
+    return "Hi Srikar Version2! ==> from "+host, 200
 
 
 @app.route('/healthz', methods=['GET'])
 def index():
-    return "Healthy Probe Version2---------------------!", 200
+    return "Healthy Probe Version2- ==>"+host, 200
 
 
 @app.route('/ready', methods=['GET'])
