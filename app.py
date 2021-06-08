@@ -7,7 +7,9 @@ import traceback
 app = Flask(__name__)
 
 
-
+@app.route('/', methods=['GET'])
+def inhello():
+    return "Hi Srikar -----!", 200
 
 
 @app.route('/healthz', methods=['GET'])
